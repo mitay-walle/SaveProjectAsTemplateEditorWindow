@@ -35,7 +35,7 @@ namespace PumpEditor
         private bool replaceTemplate;
 
         [MenuItem("Window/Pump Editor/Project Templates/Unity Project Template Window")]
-        private static void ShowWindow()
+        private static void ShowBuiltinWindow()
         {
             // Unity C# reference: https://github.com/Unity-Technologies/UnityCsReference/blob/73bda32d/Editor/Mono/ProjectTemplateWindow.cs#L11
             Assembly editorAssembly = Assembly.GetAssembly(typeof(Editor));
